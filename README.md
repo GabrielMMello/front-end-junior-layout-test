@@ -1,1 +1,1 @@
-# Teste de layout para um processo seletivo de Front-end Junior
+# Teste de layout de um processo seletivo de Front-end Junior
