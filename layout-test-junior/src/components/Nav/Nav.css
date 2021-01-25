@@ -1,53 +1,96 @@
 .Nav {
-    display: flex;
-    flex-direction: column;
-    width: calc(100vw * 1170 / 1366);
-    margin-top: 36.93px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw * 1170 / 1366);
+  margin-top: calc(100vw * 36.93 / 1366);
+}
+
+@media (max-width: 640px) {
+  .Nav {
+    margin-top: 30px;
+    width: calc(100vw * 550 / 640);
   }
-  
+}
+
+.Nav h2 {
+  font-size: calc(100vw * 52 / 1366);
+  margin-top: 0;
+  margin-bottom: calc(100vw * 5 / 1366);
+  width: 100%;
+  height: calc(100vw * 73 / 1366);
+}
+
+@media (max-width: 640px) {
   .Nav h2 {
-    font-size: 52px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    width: 100%;
-    height: 73px;
-  }
-  
-  .Nav .TopNav {
-    color: #383838;
-  }
-  
-  .Nav .TopNav p {
-    font-size: 18px;
-    margin-top: 0;
-    margin-bottom: 0px;
-    width: 100%;
-  }
-  
-  .Nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0;
-    margin-top: 34.07px;
-    overflow: hidden;
-  }
-  
-  .Nav li {
-    list-style-type: none;
-    height: calc(100vw * 346 / 1366);
-    padding: 0;
-    margin: 15px 0;
-  }
-  
-  .Nav li p {
-    color: #FFFFFF;
     font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 1.5vw;
   }
-  
-  .Nav li h2 {
-    color: #FFFFFF;
-    margin-bottom: 8px;
+}
+
+.Nav .TopNav {
+  color: #383838;
+}
+
+.Nav .TopNav p {
+  font-size: calc(100vw * 18 / 1366);
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+@media (max-width: 1007px) {
+  .Nav .TopNav p {
+    font-size: 14px;
   }
+}
+
+@media (max-width: 640px) {
+  .Nav .TopNav p {
+    font-size: 9px;
+  }
+}
+
+.Nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin-top: calc(100vw * 34.07 / 1366);
+  overflow: hidden;
+}
+
+.Nav li {
+  list-style-type: none;
+  height: calc(100vw * 346 / 1366);
+  padding: 0;
+  margin: calc(100vw * 15 / 1366) 0;
+}
+
+@media (max-width: 640px) {
+  .Nav li {
+    margin: 2vw 0;
+  }
+}
+
+.Nav li p {
+  color: #FFFFFF;
+  font-size: calc(100vw * 20 / 1366);
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1007px) {
+  .Nav li p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Nav li p {
+    font-size: 8px;
+  }
+}
+
+.Nav li h2 {
+  color: #FFFFFF;
+}
