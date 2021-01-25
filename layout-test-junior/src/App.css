@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+} 
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}

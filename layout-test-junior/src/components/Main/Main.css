@@ -1,0 +1,129 @@
+.Main {
+    background-color: #F4F4F4;
+    width: 100vw;
+    height: calc(100vw * 613/1366);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Main .Main__box {
+    display: flex;
+    justify-content: space-between;
+    color: #383838;
+    position: relative;
+    width: calc(100vw * 1170 / 1366);
+    height: 100%;
+  }
+  
+  .Main__header {
+    position: absolute;
+    top: 82.93px;
+  }
+  
+  .Main h2 {
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 73px;
+  }
+  
+  .Main p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  
+  .Main figure {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    color: #FFFFFF;
+    padding-bottom: 94.5px;
+  }
+  
+  .Main figure div {
+    width: calc(100vw * 170 / 1366);
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .graphColumn1 {
+    height: calc(100vw * 175 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphColumn2 {
+    height: calc(100vw * 225 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphColumn3 {
+    height: calc(100vw * 275 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphColumn4 {
+    height: calc(100vw * 325 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphColumn5 {
+    height: calc(100vw * 375 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphColumn6 {
+    height: calc(100vw * 425 / 1366);
+    background-color: #0088ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .graphValues {
+    background-color: #005499;
+    height: calc(100vw * 98 / 1366);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Main .Main__span {
+    padding-left: 18.44px;
+    font-size: 34px;
+  }
+  
+  .Main .Main__p--size20 {
+    padding-left: 18.44px;
+    font-size: 20px;
+  }
+  
+  .Main .Main__p--regular {
+    font-weight: 400;
+    font-size: 12px;
+    width: calc(100vw * 129 / 1366);
+    padding-left: 18.44px;
+    padding-bottom: 14.22px;
+  }
