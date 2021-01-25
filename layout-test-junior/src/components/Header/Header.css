@@ -1,0 +1,39 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: calc(100vw * 73.75 / 1366);
+    padding-bottom: calc(100vw * 85 / 1366);
+    width: 100vw;
+    height: calc(100vw * (613 - 73.75 - 85) / 1366);
+    background-image: url("./../../assets/images/background-header.jpg");
+    background-size: 100%;
+    color: #FFFFFF;
+  }
+  
+  .Header__h1 {
+    font-size: calc(100vw * 62 / 1366);
+    word-wrap: break-word;
+    text-align: center;
+    line-height: calc(100vw * 74.4 / 1366);
+    width: calc(100vw * 678 / 1366);
+  }
+  
+  .Header a {
+    background-color: #FFFFFF;
+    width: calc(100vw * 245 / 1366);
+    height: calc(100vw * 51 / 1366);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: #383838;
+    font-size: calc(100vw * 18 / 1366);
+    box-shadow: 0, 15px, 15px, rgba(0, 0, 0, 0.25);
+  }
+  
+  .Header a:active {
+    color: #383838;
+  }
